@@ -28,6 +28,45 @@
 
 .header {
   padding: 24px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: block;
+}
+
+.header__logo-image {
+  width: 78.45px;
+}
+
+.header__menu {
+  display: block;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.header__menu-item {
+  list-style-type: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header__menu-item_active {
+  text-decoration: none;
+}
+
+.header__menu-link {
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  letter-spacing: 0;
 }
 
 /* ОСНОВНАЯ ЧАСТЬ САЙТА */
@@ -52,7 +91,7 @@
 /* СЕКЦИЯ С ПРИЧИНАМИ */
 
 .reasons {
-  padding: 40x 20px;
+  padding: 40px 20px;
 }
 
 /* СЕКЦИЯ С ОБЪЯСНЕНИЯМИ */
