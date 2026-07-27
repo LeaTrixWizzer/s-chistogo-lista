@@ -1,0 +1,68 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+}
+
+/* ПАТТЕРНЫ */
+
+.content-section {
+  width: 360px;
+  height: max-content;
+  box-sizing: border-box;
+}
+
+.content-section_theme_dark {
+  background-color: rgb(19, 19, 19);
+  color: rgb(245, 245, 245);
+}
+
+.content-section_theme_bright {
+  background-color: rgb(254, 228, 42);
+  color: rgb(19, 19, 19);
+}
+
+/* ШАПКА САЙТА */
+
+.header {
+  padding: 24px 20px;
+}
+
+/* ОСНОВНАЯ ЧАСТЬ САЙТА */
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* СЕКЦИЯ С ЗАГОЛОВКОЙ */
+
+.cover {
+  padding: 7px 0 0 20px;
+}
+
+/* СЕКЦИЯ С ВВЕДЕНИЕМ */
+
+.intro {
+  padding: 30px 20px 38px;
+}
+
+/* СЕКЦИЯ С ПРИЧИНАМИ */
+
+.reasons {
+  padding: 40x 20px;
+}
+
+/* СЕКЦИЯ С ОБЪЯСНЕНИЯМИ */
+
+.how-to {
+  padding: 40px 20px 60px;
+}
+
+/* ПОДВАЛ САЙТА */
+
+.footer {
+  padding: 20px;
+}
