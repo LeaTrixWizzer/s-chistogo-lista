@@ -269,5 +269,30 @@
 /* ПОДВАЛ САЙТА */
 
 .footer {
+  border-top: 1px solid rgb(254, 228, 42);
   padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__copy {
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.footer__links-item {
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 125%;
 }
