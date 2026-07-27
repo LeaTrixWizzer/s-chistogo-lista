@@ -91,7 +91,7 @@
 /* СЕКЦИЯ С ЗАГОЛОВКОЙ */
 
 .cover {
-  padding: 9px 0 0 20px;
+  padding: 9px 0 30px 20px;
   background-image: url(../images/cover.svg);
   background-position: 20px 32px;
   background-size: 95% auto;
@@ -110,7 +110,40 @@
 /* СЕКЦИЯ С ВВЕДЕНИЕМ */
 
 .intro {
-  padding: 30px 20px 38px;
+  padding: 5px 20px 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.intro__heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.intro__title {
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+.intro__date {
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.intro__main-text {
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.6px;
+  letter-spacing: 0;
 }
 
 /* СЕКЦИЯ С ПРИЧИНАМИ */
