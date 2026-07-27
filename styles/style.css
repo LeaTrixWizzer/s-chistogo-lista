@@ -194,6 +194,76 @@
 
 .how-to {
   padding: 40px 20px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  border-radius: 30px;
+  padding: 20px 21px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card_text-only {
+  margin: 34px 0 35px;
+}
+
+.card_theme_dark {
+  background-color: rgb(52, 52, 52);
+  color: rgb(245, 245, 245);
+}
+
+.card_theme_bright {
+  background-color: rgb(254, 228, 42);
+  color: rgb(19, 19, 19);
+}
+
+.card__author {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.card__author-name {
+  font-family: "inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 135%;
+  letter-spacing: 0;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card__title {
+  font-family: "ebgaramond", serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 135%;
+  letter-spacing: 0;
+}
+
+.card__text {
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 /* ПОДВАЛ САЙТА */
